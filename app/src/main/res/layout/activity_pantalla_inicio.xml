@@ -12,17 +12,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Ingresa el nombre"
-        android:inputType="text"
-        tools:text="Ingresa el nombre"
-        />
+        android:hint="@string/hint_crear"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/btn_crear"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:text="CREAR"
+        android:text="@string/btn_crear"
         android:textStyle="bold" />
 
     <android.support.v7.widget.LinearLayoutCompat
@@ -33,9 +31,8 @@
         <Button
             android:layout_width="150dp"
             android:layout_height="40dp"
-            android:text="VER MIS LISTAS"
             android:textStyle="bold"
-            />
+            android:text="@string/btn_verLista"/>
 
 
     </android.support.v7.widget.LinearLayoutCompat>

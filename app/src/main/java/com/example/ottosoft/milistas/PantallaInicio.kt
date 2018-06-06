@@ -1,5 +1,6 @@
 package com.example.ottosoft.milistas
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,8 +15,12 @@ class PantallaInicio : AppCompatActivity() {
         val btn_crear = findViewById(R.id.btn_crear) as Button
 
         btn_crear.setOnClickListener{
-            Toast.makeText(this, "Hola Maxi", Toast.LENGTH_SHORT).show()
+
+            val activityCrearLista = Intent(this, CrearLista::class.java)
+            startActivity(activityCrearLista)
+
         }
+
     }
 
 

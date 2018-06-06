@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">MiListaS</string>
+    <string name="app_name">Mi lista del supermercado</string>
+    <string name="btn_crear">CREAR</string>
+    <string name="btn_verLista">VER MIS LISTAS</string>
+    <string name="hint_crear">Ingresa el nombre</string>
 </resources>
