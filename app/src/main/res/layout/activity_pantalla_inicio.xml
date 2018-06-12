@@ -10,6 +10,7 @@
 
 
     <EditText
+        android:id="@+id/NombreLista"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/hint_crear"
@@ -22,6 +23,22 @@
         android:layout_gravity="center"
         android:text="@string/btn_crear"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_consultar"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Consultar"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/verConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ACA se va a mostrar"
+        android:inputType="text" />
+
 
     <android.support.v7.widget.LinearLayoutCompat
         android:layout_width="match_parent"
